@@ -1,6 +1,7 @@
 h1 {
 	color: #FA8072;
 	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .game-board {
@@ -8,6 +9,8 @@ h1 {
 	grid-template-columns: 150px 150px;
 	grid-template-rows: 150px 150px;
 	/*margin-left: 300px;*/
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
 }
 
 .box {
@@ -21,30 +24,38 @@ main {
 
 #blue {
 	background-color: blue;
+	border-radius: 20px;
 }
 
 #red {
 	background-color: red;
+	border-radius: 20px;
 }
 
 #yellow {
 	background-color: yellow;
+	border-radius: 20px;
 }
 
 #green {
 	background-color: green;
+	border-radius: 20px;
 }
 
 #start {
 	width: 70px;
 	height: 40px;
 	background-color: #FA8072;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
 }
 
 #reset {
 	width: 70px;
 	height: 40px;
 	background-color: #FA8072; 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
 }
 
 /*h4 {
