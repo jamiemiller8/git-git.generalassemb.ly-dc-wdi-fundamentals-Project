@@ -55,7 +55,7 @@ for (let i = 0; i < boxes.length; i++) {
 			}, 200);
 			clickIndex++
 			if (clickIndex === squares.length) {
-				// increaseScore(); //make increase score function after this section
+				increaseScore(); 
 				clickIndex = 0;
 				lightSquare();
 			}
@@ -67,6 +67,12 @@ for (let i = 0; i < boxes.length; i++) {
 			}, 200);
 		}
 	})
+}
+
+///Make score count
+function increaseScore() {
+	score++
+	document.querySelector('#score').innerText = "Score: " + score;
 }
 
 
