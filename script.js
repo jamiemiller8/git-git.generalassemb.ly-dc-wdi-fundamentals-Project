@@ -69,7 +69,7 @@ for (let i = 0; i < boxes.length; i++) {
 	})
 }
 
-///Make score count
+///Make working score count 
 function increaseScore() {
 	score++
 	document.querySelector('#score').innerText = "Score: " + score;
