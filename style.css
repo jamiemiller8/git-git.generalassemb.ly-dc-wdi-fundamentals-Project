@@ -1,5 +1,5 @@
 h1 {
-	color: #CAD7C9;
+	color: #FA8072;
 	text-align: center;
 }
 
@@ -36,21 +36,21 @@ main {
 }
 
 #start {
-	width: 60px;
-	height: 30px;
-	background-color: #CAD7C9;
+	width: 70px;
+	height: 40px;
+	background-color: #FA8072;
 }
 
 #reset {
-	width: 60px;
-	height: 30px;
-	background-color: #CAD7C9; 
+	width: 70px;
+	height: 40px;
+	background-color: #FA8072; 
 }
 
-label {
-	color: #CAD7C9;
-}
+/*h4 {
+	color: #FA8072;
+}*/
 
 body {
-	background-color: #484848;
+	background-color: #F9EDEB;
 }
