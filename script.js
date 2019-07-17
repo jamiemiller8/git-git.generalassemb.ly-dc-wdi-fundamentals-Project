@@ -34,9 +34,9 @@ function lightUp() {
 		clickAllowed = true;
 		return;
 	}
-	document.querySelector("#blue", "#red", "#yellow", "#green" + squares[index]).setAttribute('style', 'background-image: linear-gradient(rgb(244,234,236), #F3F2F2)');
+	document.querySelector("#b" + squares[index]).setAttribute('style', 'background-image: linear-gradient(rgb(244,234,236), #F3F2F2)');
 	setTimeout (() => {
-		document.querySelector("#blue", "#red", "#yellow", "#green" + squares[index]).removeAttribute('style');
+		document.querySelector("#b" + squares[index]).removeAttribute('style');
 		index++;
 	}, 200); //the 200 determines the speed/length for how long it highlights for
 }
@@ -48,14 +48,14 @@ for (let i = 0; i < boxes.length; i++) {
 		if (clickAllowed = false) {
 			return;
 		}
-		if ("#all-box" + squares[clickIndex] === evt.target.id) {
+		if ("b" + squares[clickIndex] === evt.target.id) {
 			evt.target.setAttribute('style', 'background-image: linear-gradient(rgb(244, 234, 236), #F3F2F2)');
 			setTimeout(() => {
 				evt.target.removeAttribute('style');
 			}, 200);
 			clickIndex++
 			if (clickIndex === squares.length) {
-				increaseScore(); //make add to score function after this section
+				// increaseScore(); //make increase score function after this section
 				clickIndex = 0;
 				lightSquare();
 			}
@@ -68,5 +68,7 @@ for (let i = 0; i < boxes.length; i++) {
 		}
 	})
 }
+
+
 
 
