@@ -25,7 +25,7 @@ function lightSquare() {
 	} 
 	index = 0;
 	squares.push(Math.floor(Math.random() * 4));
-	timer = setInterval(lightUp, 1000);
+	timer = setInterval(lightUp, 1000); //number indicates how long it takes for square to light up after clicking start
 }
 
 function lightUp() {
@@ -34,14 +34,39 @@ function lightUp() {
 		clickAllowed = true;
 		return;
 	}
-	document.querySelector("#blue", "#red", "#yellow", "#green" + squares[index]).setAttribute('style', 'background-image: linear-gradient(rgb(205,220,250), #F3F2F2)');
+	document.querySelector("#blue", "#red", "#yellow", "#green" + squares[index]).setAttribute('style', 'background-image: linear-gradient(rgb(244,234,236), #F3F2F2)');
 	setTimeout (() => {
 		document.querySelector("#blue", "#red", "#yellow", "#green" + squares[index]).removeAttribute('style');
 		index++;
 	}, 200); //the 200 determines the speed/length for how long it highlights for
 }
 
-
-
+///Responding player click to match the square that lights up
+var boxes = document.querySelectorAll('.box');
+for (let i = 0; i < boxes.length; i++) {
+	boxes[i].addEventListener("click", function(evt) {
+		if (clickAllowed = false) {
+			return;
+		}
+		if ("#all-box" + squares[clickIndex] === evt.target.id) {
+			evt.target.setAttribute('style', 'background-image: linear-gradient(rgb(244, 234, 236), #F3F2F2)');
+			setTimeout(() => {
+				evt.target.removeAttribute('style');
+			}, 200);
+			clickIndex++
+			if (clickIndex === squares.length) {
+				increaseScore(); //make add to score function after this section
+				clickIndex = 0;
+				lightSquare();
+			}
+		} else {
+			evt.target.setAttribute('style', 'background-image: linear-gradient(rgb(244, 234, 236), rgb(244, 234, 236))');
+			setTimeout(() => {
+				evt.target.removeAttribute('style');
+				alert("You lost. Click reset to play again!");
+			}, 200);
+		}
+	})
+}
 
 
