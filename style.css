@@ -27,9 +27,11 @@ main {
 }
 
 #b0.alternate {
-	background-color: blue;
+	background: url('https://i.imgur.com/DZZosWS.jpg');
+	background-position: center;
+	background-size: cover;
 	border-radius: 20px;
-	border: solid #1C86EE;
+	border: solid black;
 }
 
 #b1.normal {
@@ -39,9 +41,11 @@ main {
 }
 
 #b1.alternate {
-	background-color: red;
+	background: url('https://i.imgur.com/g6aYAf0.jpg');
+	background-position: center;
+	background-size: cover;
 	border-radius: 20px;
-	border: solid #FF0000;
+	border: solid black;
 }
 
 #b2.normal {
@@ -51,9 +55,11 @@ main {
 }
 
 #b2.alternate {
-	background-color: yellow;
+	background: url('https://i.imgur.com/GiRWqnu.jpg');
+	background-position: center;
+	background-size: 145px 180px;
 	border-radius: 20px;
-	border: solid #FFE303;
+	border: solid black;
 }
 
 #b3.normal {
@@ -63,9 +69,11 @@ main {
 }
 
 #b3.alternate {
-	background-color: green;
+	background: url('https://i.imgur.com/JekK7t9.jpg');
+	background-position: center;
+	background-size: cover;
 	border-radius: 20px;
-	border: solid #3B5E2B;
+	border: solid black;
 }
 
 #start {
@@ -84,11 +92,24 @@ main {
 	font-size: 18px;
 }
 
-body {
+body.normal {
 	background-color: #F9EDEB;
 }
 
-#score {
+body.alternate{
+	background: url('https://i.imgur.com/P4IBw1W.jpg')
+}
+
+
+
+#score.normal {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 18px;
+}
+
+#score.alternate {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	color: #E32636;
+	font-weight: bold;
 }

@@ -6,8 +6,8 @@ var timer;
 var index = 0;
 var clickIndex = 0;
 var clickAllowed = false;
-var dynamicElementIds = ["#b0", "#b1", "#b2", "#b3"]
-var themes = ["alternate", "normal"]
+var dynamicElementIds = ["#b0", "#b1", "#b2", "#b3", "body", "#score"]
+var themes = ["normal", "alternate"]
 
 //// below code = when start button is clicked, the score-count pops up
 var score = 0;
@@ -93,8 +93,7 @@ function increaseScore() {
 }
 
 
-//////Attempting to play sound effect when square is clicked
-
+//////Play sound effect when square is clicked
 let muteOn = false;
 
 function blueClick() {
