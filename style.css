@@ -4,6 +4,12 @@ h1 {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+h1.alternate {
+	color: #3B3178;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 .game-board {
 	display: inline-grid;
 	grid-template-columns: 150px 150px;
@@ -15,10 +21,6 @@ h1 {
 main {
 	text-align: center;
 }
-
-/*.border-radius-20 {
-	border-radius: 20px;
-}*/
 
 #b0.normal {
 	background-color: #60AAF3;
@@ -77,19 +79,87 @@ main {
 }
 
 #start {
-	width: 70px;
+	width: 75px;
 	height: 40px;
 	background-color: #FA8072;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 18px;
+	margin: 5px;
+}
+
+#start.alternate {
+	width: 75px;
+	height: 40px;
+	background-color: #3B3178;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	color: white;
+	margin: 5px;
 }
 
 #reset {
-	width: 70px;
+	width: 75px;
 	height: 40px;
 	background-color: #FA8072; 
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 18px;
+	margin: 5px;
+}
+
+#reset.alternate {
+	width: 75px;
+	height: 40px;
+	background-color: #3B3178; 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	color: white;
+	margin: 5px;
+}
+
+#normal {
+	width: 75px;
+	height: 40px;
+	background-color: #FA8072;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	float: right;
+	margin: 5px;
+}
+
+#normal.alternate {
+	width: 75px;
+	height: 40px;
+	background-color: #3B3178;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	color: white;
+	float: right;
+	margin: 5px;
+}
+
+#alternate {
+	width: 75px;
+	height: 40px;
+	background-color: #FA8072;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	float: right;
+	margin: 5px;
+}
+
+#alternate.alternate {
+	width: 75px;
+	height: 40px;
+	background-color: #3B3178;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	color: white;
+	float: right;
+	margin: 5px;
+}
+
+body {
+	background-color: #F9EDEB;
 }
 
 body.normal {
@@ -100,7 +170,10 @@ body.alternate{
 	background: url('https://i.imgur.com/P4IBw1W.jpg')
 }
 
-
+#score {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+}
 
 #score.normal {
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -110,6 +183,6 @@ body.alternate{
 #score.alternate {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 18px;
-	color: #E32636;
+	color: #3B3178;
 	font-weight: bold;
 }

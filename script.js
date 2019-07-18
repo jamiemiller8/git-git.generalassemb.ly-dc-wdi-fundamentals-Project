@@ -6,7 +6,7 @@ var timer;
 var index = 0;
 var clickIndex = 0;
 var clickAllowed = false;
-var dynamicElementIds = ["#b0", "#b1", "#b2", "#b3", "body", "#score"]
+var dynamicElementIds = ["#b0", "#b1", "#b2", "#b3", "body", "#score", "#start", "#reset", "h1", "#normal", "#alternate"]
 var themes = ["normal", "alternate"]
 
 //// below code = when start button is clicked, the score-count pops up
