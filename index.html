@@ -9,18 +9,18 @@
     <h1>Simon Says</h1>
     <main>
       <div class="game-board normal" id="all-box">
-        <div class="box normal" id="b0" value="blue"></div>
-        <div class="box normal" id="b1" value="red"></div>
-        <div class="box normal" id="b2" value="yellow"></div>
-        <div class="box normal" id="b3" value="green"></div>
+        <div class="box normal" id="b0"></div>
+        <div class="box normal" id="b1"></div>
+        <div class="box normal" id="b2"></div>
+        <div class="box normal" id="b3"></div>
       </div>
     </main>
     <footer>
-      <button type="start" id="start">Start</button>
+      <button data-type="start" id="start">Start</button>
       <button type="reset" id="reset" onclick="history.go(0)">Reset</button>
-      <button type="normal" id="normal">Normal</button>
-      <button type="alternate" id="alternate">Ocean</button>
-      <div class="score" id="score">
+      <button data-type="normal" id="normal">Normal</button>
+      <button data-type="alternate" id="alternate">Ocean</button>
+      <div class="score" id="score"></div>
     </footer>
     <script src="script.js"></script>
   </body>

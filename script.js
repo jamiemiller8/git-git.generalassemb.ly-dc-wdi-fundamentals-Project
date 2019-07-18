@@ -41,7 +41,7 @@ function lightSquare() {
 	} 
 	index = 0;
 	squares.push(Math.floor(Math.random() * 4));
-	timer = setInterval(lightUp, 1000); //number indicates how long it takes for square to light up after clicking start
+	timer = setInterval(lightUp, 900); //number indicates how long it takes for square to light up after clicking start
 }
 
 function lightUp() {
