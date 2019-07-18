@@ -167,7 +167,11 @@ body.normal {
 }
 
 body.alternate{
-	background: url('https://i.imgur.com/P4IBw1W.jpg')
+background: url('https://media.giphy.com/media/3og0IMh7rRNPtNSK9q/giphy.gif');
+background-position: center;
+background-size: 150% 175%;
+
+
 }
 
 #score {
@@ -183,6 +187,6 @@ body.alternate{
 #score.alternate {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 18px;
-	color: #3B3178;
+	color: white;
 	font-weight: bold;
 }
