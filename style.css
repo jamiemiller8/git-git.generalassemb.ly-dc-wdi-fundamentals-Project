@@ -16,26 +16,54 @@ main {
 	text-align: center;
 }
 
-#b0 {
+/*.border-radius-20 {
+	border-radius: 20px;
+}*/
+
+#b0.normal {
 	background-color: #60AAF3;
 	border-radius: 20px;
 	border: solid #1C86EE;
 }
 
-#b1 {
+#b0.alternate {
+	background-color: blue;
+	border-radius: 20px;
+	border: solid #1C86EE;
+}
+
+#b1.normal {
 	background-color: #FF4D4D;
 	border-radius: 20px;
 	border: solid #FF0000;
 }
 
-#b2 {
+#b1.alternate {
+	background-color: red;
+	border-radius: 20px;
+	border: solid #FF0000;
+}
+
+#b2.normal {
 	background-color: #FFEB4F;
 	border-radius: 20px;
 	border: solid #FFE303;
 }
 
-#b3 {
+#b2.alternate {
+	background-color: yellow;
+	border-radius: 20px;
+	border: solid #FFE303;
+}
+
+#b3.normal {
 	background-color: #6DAD4F;
+	border-radius: 20px;
+	border: solid #3B5E2B;
+}
+
+#b3.alternate {
+	background-color: green;
 	border-radius: 20px;
 	border: solid #3B5E2B;
 }

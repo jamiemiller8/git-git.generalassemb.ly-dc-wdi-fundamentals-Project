@@ -6,7 +6,8 @@ var timer;
 var index = 0;
 var clickIndex = 0;
 var clickAllowed = false;
-
+var dynamicElementIds = ["#b0", "#b1", "#b2", "#b3"]
+var themes = ["alternate", "normal"]
 
 //// below code = when start button is clicked, the score-count pops up
 var score = 0;
@@ -16,6 +17,21 @@ document.querySelector("#start").addEventListener("click", function(evt) {
 	document.querySelector("#score").innerText = "Score: " + score;
 	lightSquare();
 });
+
+/////function for different themes/versions of the game 
+
+themes.forEach(function(theme) {
+	document.querySelector(`#${theme}`).addEventListener("click", function(evt) {
+		evt.preventDefault();
+		dynamicElementIds.forEach(function(elementId) {
+			changeClass(elementId, theme);
+		})
+	});
+})
+
+function changeClass(elementId, newClass) {
+	document.querySelector(elementId).className = newClass
+}
 
 ////When start button is clicked, the first square will light up
 function lightSquare() {
@@ -45,6 +61,7 @@ function lightUp() {
 var boxes = document.querySelectorAll('.box');
 for (let i = 0; i < boxes.length; i++) {
 	boxes[i].addEventListener("click", function(evt) {
+		blueClick();
 		if (clickAllowed = false) {
 			return;
 		}
@@ -74,6 +91,23 @@ function increaseScore() {
 	score++
 	document.querySelector('#score').innerText = "Score: " + score;
 }
+
+
+//////Attempting to play sound effect when square is clicked
+
+let muteOn = false;
+
+function blueClick() {
+	var blueAudio = new Audio("https://www.soundjay.com/button/button-10.mp3");
+	if(muteOn === false) {
+		blueAudio.play();
+	}	
+}
+
+
+
+
+
 
 
 
