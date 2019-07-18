@@ -50,6 +50,7 @@ function lightUp() {
 		clickAllowed = true;
 		return;
 	}
+	blueClick();
 	document.querySelector("#b" + squares[index]).setAttribute('style', 'background-image: linear-gradient(rgb(244,234,236), #F3F2F2)');
 	setTimeout (() => {
 		document.querySelector("#b" + squares[index]).removeAttribute('style');
