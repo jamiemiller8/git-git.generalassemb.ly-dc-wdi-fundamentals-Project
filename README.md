@@ -7,8 +7,9 @@ A memory game where the user has to watch the computer choose a random square th
 * Click the start button to begin the game
 * Watch and memorize the computer highlight the first square
 * Click the square that the computer just highlighted
-* If you choose the right square, one more square will be added to the sequence in each round
+* If you choose the right square, one more square will be added to the sequence in each round and your score will be incremented by one each time
 * If you get it wrong, the game is over and an alert pops up telling you to restart the game
+* If you want to switch things up, try playing the Ocean mode! 
 
 <br/><br/>
 <img align="center" src="https://i.imgur.com/x800vxb.png" width="100%" height="80%">
