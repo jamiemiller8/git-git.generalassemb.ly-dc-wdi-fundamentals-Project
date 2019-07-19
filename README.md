@@ -1,6 +1,6 @@
 # Project 1: Build a Game
 
-# Project Title: Simon Says
+# Simon Says
 
 Based off of [The Simon Game](https://shop.hasbro.com/en-us/product/simon-game:6B0A06E3-5056-9047-F532-6A891FAEBA15) from Hasbro, this is a memory game where the user has to watch the computer choose a random square that lights up. The user then has to remember which square was highlighted and then click the same one. After each turn, the amount of squares that are highlighted are incremented by one. If the user clicks the wrong button, then the game is over and they have to restart. 
 
@@ -30,7 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With
 
-* [HTML](https://www.w3schools.com/html/html_intro.asp) - The web framework used
+* [HTML](https://www.w3schools.com/html/html_intro.asp) - Used for the web framework
 * [CSS](https://www.w3schools.com/Css/) - Used to style 
 * [JavaScript](https://www.javascript.com/) - Used to generate function 
 * [Sublime Text 3.0](https://www.sublimetext.com/3) - Text editor 
