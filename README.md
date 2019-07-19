@@ -1,5 +1,4 @@
-# git-git.generalassemb.ly-dc-wdi-fundamentals-Project
-Project 1: Build a Game
+# Project 1: Build a Game
 
 # Project Title: Simon Says
 
@@ -37,5 +36,5 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Author
 
-* **Jamie Miller** - [jamiemiller8](https://github.com/jamiemiller8)
+* **Jamie Miller** - [My Github Profile](https://github.com/jamiemiller8)
 
