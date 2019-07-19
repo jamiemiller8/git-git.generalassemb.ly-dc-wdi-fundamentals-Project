@@ -1,6 +1,3 @@
-console.log("testing")
-
-//////
 var squares = [];
 var timer;
 var index = 0;
@@ -9,7 +6,7 @@ var clickAllowed = false;
 var dynamicElementIds = ["#b0", "#b1", "#b2", "#b3", "body", "#score", "#start", "#reset", "h1", "#normal", "#alternate"]
 var themes = ["normal", "alternate"]
 
-//// below code = when start button is clicked, the score-count pops up
+////when start button is clicked, the score-count pops up
 var score = 0;
 
 document.querySelector("#start").addEventListener("click", function(evt) {
