@@ -2,13 +2,13 @@
 
 # Project Title: Simon Says
 
-A memory game where the user has to watch the computer choose a random square that lights up. The user then has to remember which square was highlighted and then click the same one. After each turn, the amount of squares clicked is incremented by one. If the user clicks the wrong button, then the game is over and they have to restart. 
+Based off of The Simon Game(https://shop.hasbro.com/en-us/product/simon-game:6B0A06E3-5056-9047-F532-6A891FAEBA15) from Hasbro, this is a memory game where the user has to watch the computer choose a random square that lights up. The user then has to remember which square was highlighted and then click the same one. After each turn, the amount of squares that are highlighted are incremented by one. If the user clicks the wrong button, then the game is over and they have to restart. 
 
 * Click the start button to begin the game
 * Watch and memorize the computer highlight the first square
 * Click the square that the computer just highlighted
-* If you choose the right square, one more square will be added to the sequence in each round and your score will be incremented by one each time
-* If you get it wrong, the game is over and an alert pops up telling you to restart the game
+* If you choose the right square, one more square will be added to the sequence in each round and your score will also be incremented by one each time
+* If you get it wrong, the game is over and an alert pops up telling you to click the reset button in order to restart the game
 * If you want to switch things up, try playing the Ocean mode! 
 
 <br/><br/>
