@@ -169,7 +169,8 @@ body.normal {
 body.alternate{
 background: url('https://media.giphy.com/media/3og0IMh7rRNPtNSK9q/giphy.gif');
 background-position: center;
-background-size: 150% 175%;
+background-size: 150% 205%;
+background-repeat: no-repeat;
 }
 
 #score {
