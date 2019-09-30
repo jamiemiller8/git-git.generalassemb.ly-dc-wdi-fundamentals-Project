@@ -95,17 +95,8 @@ function increaseScore() {
 let muteOn = false;
 
 function blueClick() {
-	var blueAudio = new Audio("https://www.soundjay.com/button/button-10.mp3");
+	var blueAudio = new Audio("sounds/simonSound1.mp3");
 	if(muteOn === false) {
 		blueAudio.play();
 	}	
 }
-
-
-
-
-
-
-
-
-
