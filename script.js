@@ -47,7 +47,7 @@ function lightUp() {
 		clickAllowed = true;
 		return;
 	}
-	blueClick();
+	soundClick();
 	document.querySelector("#b" + squares[index]).setAttribute('style', 'background-image: linear-gradient(rgb(244,234,236), #F3F2F2)');
 	setTimeout (() => {
 		document.querySelector("#b" + squares[index]).removeAttribute('style');
@@ -59,7 +59,7 @@ function lightUp() {
 var boxes = document.querySelectorAll('.box');
 for (let i = 0; i < boxes.length; i++) {
 	boxes[i].addEventListener("click", function(evt) {
-		blueClick();
+		soundClick();
 		if (clickAllowed = false) {
 			return;
 		}
@@ -94,9 +94,9 @@ function increaseScore() {
 //////Play sound effect when square is clicked
 let muteOn = false;
 
-function blueClick() {
-	var blueAudio = new Audio("sounds/simonSound1.mp3");
+function soundClick() {
+	var soundAudio = new Audio("sounds/simonSound1.mp3");
 	if(muteOn === false) {
-		blueAudio.play();
+		soundAudio.play();
 	}	
 }
